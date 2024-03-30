@@ -1,0 +1,27 @@
+.main {
+  font-family: var(--mobile-font);
+  font-size: 240px;
+  height: 0px;
+  transition: all 0.5s;
+}
+
+.surveyContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+.leftAnswers {
+  width: 600px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.rightAnswers {
+  width: 600px;
+  padding-left: 30px;
+  padding-right: 0px;
+}
